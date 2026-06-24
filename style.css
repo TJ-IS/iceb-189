@@ -332,7 +332,7 @@
   max-width: none;
   font-size: 1.85rem !important;
   line-height: 1.08;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .framework-map {
