@@ -1,15 +1,15 @@
 ---
 theme: scholarly
-title: Unpacking the Experience Economy of Role-Playing Conversational AI
+title: Mapping GenAI-Enabled Technical Features to Player Needs in Digital Games
 description: ICEB 2026 conference presentation slides
 authors:
-  - name: Ke Xu
-    institution: School of Economics and Management, Tongji University
   - name: Fangzhan Lin
+    institution: School of Economics and Management, Tongji University
+  - name: Ke Xu
     institution: School of Economics and Management, Tongji University
   - name: Zhongyun Zhou
     institution: School of Economics and Management, Tongji University
-footerLeft: K. Xu · F. Lin · Z. Zhou
+footerLeft: F. Lin · K. Xu · Z. Zhou
 footerMiddle: The 26th International Conference on Electronic Business · Beijing · July 16–20, 2026
 class: text-left
 transition: slide-left
@@ -20,9 +20,9 @@ themeConfig:
   sectionMode: light
 ---
 
-# Unpacking the Experience Economy of Role-Playing Conversational AI
+# Mapping GenAI-Enabled Technical Features to Player Needs in Digital Games
 
-## A Grounded Theory Analysis
+## A Needs-(Dis)Affordances-Features Framework
 
 **ICEB 2026 · Beijing, China**
 
@@ -32,50 +32,77 @@ layout: agenda
 
 # Roadmap
 
-1. Research context and motivation
-2. Theoretical lens: the 4Es framework
-3. Data and LLM-assisted grounded theory
-4. Findings: four experiential realms
-5. Contributions, implications, and future work
+1. Why GenAI-enabled games need a feature-level view
+2. Theoretical lens: needs, affordances, disaffordances, and features
+3. Data and LLM-performed grounded theory
+4. Findings: the Needs-(Dis)Affordances-Features framework
+5. Contributions, implications, and future research
 
 ---
 layout: section
 ---
 
-# Why Role-Playing Conversational AI?
+# Research Context
 
 ---
 layout: default
 ---
 
-# From Tool Use to Experiential Consumption
+# GenAI Changes Games Differently from Static Products
 
 <div class="contrast-block">
 <div>
 
-<h3>Dominant views in prior AI research</h3>
+<h3>Dominant GenAI product research</h3>
 
 <ul>
-<li><strong>Utilitarian systems</strong><br/>Efficiency, usefulness, response quality, and task completion.</li>
-
-<li><strong>Relational companions</strong><br/>Emotional support, self-disclosure, companionship, and loneliness reduction.</li>
+<li>Often studies <strong>completed outputs</strong>: images, advertisements, artworks, texts, or design artifacts.</li>
+<li>Explains valuation through <strong>disclosure</strong>, algorithmic source cues, authenticity, perceived effort, and psychological value. @rix2025 @sikhondze2025</li>
 </ul>
 </div>
 
 <div>
 
-<h3>What role-playing AI adds</h3>
+<h3>What digital games add</h3>
 
 <ul>
-<li>Interaction is organized around <strong>AI personas</strong>, fictional scenes, and user-defined storylines.</li>
-<li>Users actively develop characters, relationships, and narrative worlds.</li>
-<li>Value emerges through <strong>experience</strong>, not only performance or support.</li>
+<li>Games are <strong>feature-rich interactive systems</strong>, not only finished artifacts.</li>
+<li>GenAI can appear in assets, dialogue, characters, quests, encounters, and adaptive runtime systems. @gallotta2024 @ashby2023</li>
+<li>Player value emerges <strong>during play</strong>, through perception, interpretation, and action.</li>
 </ul>
 </div>
 </div>
 
 <div class="takeaway">
-Role-playing conversational AI is better understood as an interactive experiential medium.
+In games, the key question is not simply whether AI was used, but how specific GenAI-enabled features shape play. @lin2026
+</div>
+
+---
+layout: default
+---
+
+# Motivation: Source Cues Are Not Enough
+
+<div class="problem-grid">
+<div>
+<span>01</span>
+<strong>Pre-generated components</strong>
+<p>Images, voices, music, text, and other assets influence aesthetic quality, atmosphere, and reward structures.</p>
+</div>
+<div>
+<span>02</span>
+<strong>Runtime interaction</strong>
+<p>LLM-driven dialogue and NPCs influence agency, emotional connection, and continuity during play.</p>
+</div>
+<div>
+<span>03</span>
+<strong>Adaptive systems</strong>
+<p>Dynamic quests, encounters, and generative structures influence novelty, challenge, and system intelligibility.</p>
+</div>
+</div>
+
+<div class="takeaway big">
+The same GenAI label can hide very different technical integrations and player experiences.
 </div>
 
 ---
@@ -84,7 +111,7 @@ layout: statement
 
 # Research Question
 
-**What experiential dimensions of role-playing conversational AI can be identified through the experience economy framework?**
+**Which GenAI-enabled technical features in digital games are associated with particular affordances and disaffordances, and how do these shape players' psychological need satisfaction and frustration?**
 
 ---
 layout: section
@@ -96,22 +123,32 @@ layout: section
 layout: default
 ---
 
-# Experience Economy as an Analytical Lens
+# A Needs-(Dis)Affordances-Features View
 
-## The 4Es framework
+<div class="naf-diagram">
+<div>
+<span>Features</span>
+<strong>Concrete GenAI integration</strong>
+<p>Assets, dialogue interfaces, AI agents, adaptive quests, generated encounters, and system behaviors.</p>
+</div>
+<div class="arrow">→</div>
+<div>
+<span>(Dis)Affordances</span>
+<strong>What becomes possible or constrained</strong>
+<p>Players interpret and act through technical features, but the same feature may enable and disrupt experience.</p>
+</div>
+<div class="arrow">→</div>
+<div>
+<span>Needs</span>
+<strong>Psychological experience</strong>
+<p>Autonomy, competence, and relatedness are supported or frustrated during play. @karahanna2018 @ryan2018</p>
+</div>
+</div>
 
-Pine and Gilmore conceptualize experiences along two continua:
-
-- **Participation**: passive → active
-- **Connection**: absorption → immersion
-
-These continua generate four experiential realms: **entertainment**, **education**, **esthetics**, and **escapism**. @pine1998
-
-<div class="realm-grid">
-<div><strong>Entertainment</strong><br/>How are users engaged by AI performances?</div>
-<div><strong>Education</strong><br/>How do users develop perspectives or skills?</div>
-<div><strong>Esthetics</strong><br/>How does the textual environment enrich experience?</div>
-<div><strong>Escapism</strong><br/>How do users participate in alternative realities?</div>
+<div class="lens-grid">
+<div><strong>Affordance</strong><br/>Possibilities for goal-oriented action emerging from user–technology relations.</div>
+<div><strong>Disaffordance</strong><br/>Constraints or disruptions that hinder players' pursuit of goals. @lin2022 @wittkower2016</div>
+<div><strong>Self-determination theory</strong><br/>Autonomy, competence, and relatedness are central to player experience. @tyack2020 @tyack2024</div>
 </div>
 
 ---
@@ -128,48 +165,49 @@ class: procedure-slide
 # Data and Analytical Procedure
 
 <div class="process-grid">
-<div><strong>1. Data source</strong><br/>Reddit community <em>r/CharacterAI</em></div>
-<div><strong>2. Initial corpus</strong><br/>All available comments up to the end of 2024</div>
-<div><strong>3. Length screening</strong><br/>Comments shorter than 50 words excluded</div>
-<div><strong>4. Relevance filtering</strong><br/>LLM-assisted screening for experiential role-playing content</div>
-<div><strong>5. Open coding</strong><br/>Experience-related segments coded inductively in gerund form</div>
-<div><strong>6. Axial integration</strong><br/>16 subcategories integrated into 11 higher-order categories and interpreted through 4Es</div>
+<div><strong>1. Case identification</strong><br/>Steam games with store-page or official update statements indicating GenAI involvement.</div>
+<div><strong>2. Review retrieval</strong><br/>Multilingual keyword search for reviews likely to discuss GenAI-enabled features.</div>
+<div><strong>3. Relevance filtering</strong><br/>LLM-assisted screening for actual player experience with GenAI-enabled technical features.</div>
+<div><strong>4. Open coding</strong><br/>Prompt-guided concept extraction from review excerpts, with code-list maintenance.</div>
+<div><strong>5. Axial coding</strong><br/>Feature categories linked to recurring affordances, disaffordances, and need-related outcomes.</div>
+<div><strong>6. Selective coding</strong><br/>Integration into a Needs-(Dis)Affordances-Features framework.</div>
 </div>
 
-<div class="metric-row">
-<span><strong>6,171</strong><br/>final comments</span>
-<span><strong>8,956</strong><br/>coded instances</span>
-<span><strong>123</strong><br/>initial labels</span>
-<span><strong>16</strong><br/>subcategories</span>
+<div class="metric-row five">
+<span><strong>5,032</strong><br/>candidate reviews</span>
+<span><strong>3,096</strong><br/>retained reviews</span>
+<span><strong>810</strong><br/>games</span>
+<span><strong>100/200</strong><br/>validation samples</span>
+<span><strong>&gt;80%</strong><br/>consistency, precision, recall</span>
 </div>
 
 <div class="takeaway">
-The pipeline combines large-scale screening with grounded, iterative interpretation.
+The study combines LLM-supported large-scale coding with human-supervised grounded theory interpretation. @zhou2024
 </div>
 
 ---
 layout: default
 ---
 
-# Methodological Rigor
+# Methodological Boundaries
 
 <div class="columns-3">
 <div>
-<h3>Inductive first</h3>
-<p>Comments were not directly forced into the 4Es. Experiential concepts were first derived from user discourse.</p>
+<h3>Naturalistic evidence</h3>
+<p>Steam reviews capture player evaluations in their own words, but they are platform discourse rather than controlled measurement.</p>
 </div>
 <div>
-<h3>Human–AI collaboration</h3>
-<p>LLM-supported coding was combined with researcher-led refinement, constant comparison, and category development.</p>
+<h3>Human–AI workflow</h3>
+<p>Researchers designed prompts, maintained code lists, validated samples, constructed categories, and interpreted higher-order relationships.</p>
 </div>
 <div>
-<h3>Validation</h3>
-<p>A random sample of 400 comments was manually assessed. Consistency, precision, and recall each exceeded 90%.</p>
+<h3>Need inference</h3>
+<p>Autonomy, competence, and relatedness are inferred from discourse patterns rather than measured psychometrically.</p>
 </div>
 </div>
 
 <div class="takeaway">
-The study uses LLMs to scale interpretive coding while preserving grounded theory logic. @zhou2024
+The findings should be read as a grounded theoretical account of recurring player-experience patterns.
 </div>
 
 ---
@@ -183,127 +221,197 @@ layout: default
 class: framework-slide
 ---
 
-# 4E Framework for Role-Playing AI
+# Needs-(Dis)Affordances-Features Framework
 
-<div class="figure-wrap">
-<img src="./assets/experience_framework_page4.png" alt="Framework for understanding the experience of role-playing conversational AI" />
+<div class="framework-map">
+<div class="feature-column">
+<h3>Feature categories</h3>
+<div>Pre-generated assets</div>
+<div>Runtime dialogue and character interaction</div>
+<div>Adaptive and generative gameplay systems</div>
+</div>
+<div class="aff-column">
+<h3>Affordances</h3>
+<div>Acquiring generative assets as gameplay rewards</div>
+<div>Co-creating emergent narratives</div>
+<div>Building para-social relationships with agents</div>
+<div>Interacting with AI as a core mechanic</div>
+</div>
+<div class="disaff-column">
+<h3>Disaffordances</h3>
+<div>Content superficiality and homogeneity</div>
+<div>Cognitive and perceptual incoherence</div>
+<div>Failure to retain conversational context</div>
+<div>Agent logic decoupled from mechanical consequence</div>
+</div>
+<div class="need-column">
+<h3>Need outcomes</h3>
+<div>Autonomy satisfaction / frustration</div>
+<div>Competence satisfaction / frustration</div>
+<div>Relatedness satisfaction / frustration</div>
+</div>
 </div>
 
 <div class="caption">
-Figure adapted from the paper: entertainment and education lie on the absorption side, whereas esthetic and escapist experiences lie on the immersion side.
+Player responses are organized around feature-level GenAI integration rather than AI origin alone.
 </div>
 
 ---
 layout: default
+class: matrix-slide
 ---
 
-# Entertainment: Engaged by AI Performances
+# Findings at a Glance
 
-<p class="realm-intro">Users stay engaged when role-play feels playful, safe, and surprising.</p>
-
-<div class="finding-grid three realm-entertainment">
-<div>
-<h3>Enjoying playful exchanges</h3>
-<p>Users value witty, humorous, dramatic, and emotionally rewarding exchanges with AI characters.</p>
-</div>
-<div>
-<h3>Enjoying low-pressure interaction</h3>
-<p>The AI context offers a socially safe space with lower embarrassment, risk, and interpersonal burden.</p>
-</div>
-<div>
-<h3>Observing unpredictable responses</h3>
-<p>Surprise and novelty sustain curiosity by making each turn feel uncertain and interesting.</p>
-</div>
-</div>
+<table class="mini-table">
+<thead>
+<tr><th>Feature category</th><th>Enabling effects</th><th>Constraining effects</th><th>Need-related outcomes</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pre-generated assets</strong></td>
+<td>Generative assets as rewards</td>
+<td>Superficiality; incoherence</td>
+<td>Competence satisfaction; autonomy and competence frustration</td>
+</tr>
+<tr>
+<td><strong>Runtime dialogue and character interaction</strong></td>
+<td>Emergent narratives; para-social relationships; AI as mechanic</td>
+<td>Context loss; logic-consequence decoupling</td>
+<td>Autonomy and relatedness satisfaction; relatedness and competence frustration</td>
+</tr>
+<tr>
+<td><strong>Adaptive and generative gameplay systems</strong></td>
+<td>AI as a core mechanic</td>
+<td>Shallow variation; unstable system logic</td>
+<td>Autonomy and competence satisfaction; competence frustration</td>
+</tr>
+</tbody>
+</table>
 
 <div class="takeaway">
-Entertainment is produced through a combination of playfulness, ease, and surprise.
+Each feature category contains both an experiential promise and a recurring failure mode.
 </div>
 
 ---
 layout: default
+class: feature-slide
 ---
 
-# Educational: Enhancing Perspectives or Skills
+# Feature Category 1: Pre-generated Assets
 
-<p class="realm-intro">Learning value appears through reflection, practice, and co-creation.</p>
+<p class="realm-intro">AI-generated visual assets, text, music, and voice content embedded into the game before play.</p>
 
-<div class="finding-grid three realm-education">
+<div class="aff-dis-grid">
 <div>
-<h3>Perspective broadening</h3>
-<p>Role-play exposes users to alternative viewpoints, emotional positions, and hypothetical situations.</p>
+<h3>Affordance</h3>
+<strong>Acquiring generative assets as gameplay rewards</strong>
+<p>Generated images, collectibles, scenes, or unlockables become visible indicators of progress and achievement.</p>
+<p class="need-tag">Main need supported: competence</p>
 </div>
 <div>
-<h3>Skill practice</h3>
-<p>Users rehearse expression, dialogue, and social interaction in a low-stakes environment.</p>
-</div>
-<div>
-<h3>Creative crafting</h3>
-<p>AI characters support collaborative building of plots, scenes, settings, and storylines.</p>
+<h3>Disaffordances</h3>
+<strong>Content superficiality and homogeneity</strong>
+<p>Repetitive, generic, shallow, or formulaic content makes the game world feel thinner.</p>
+<strong>Cognitive and perceptual incoherence</strong>
+<p>Inconsistent style, distorted details, or mismatched content weakens interpretation and immersion.</p>
+<p class="need-tag">Main needs frustrated: autonomy and competence</p>
 </div>
 </div>
 
 <div class="takeaway">
-Educational value appears as reflective and creative development rather than formal instruction.
+Generated assets help when they enrich progression; they hurt when players read them as low-effort, repetitive, or incoherent.
 </div>
 
 ---
 layout: default
+class: feature-slide
 ---
 
-# Esthetic: Enriched by Textual and Narrative Environment
+# Feature Category 2: Runtime Dialogue and Character Interaction
 
-<p class="realm-intro">Aesthetic quality comes from atmosphere, consistency, and narrative continuity.</p>
+<p class="realm-intro">LLM-driven non-player characters and dynamically generated dialogue during play.</p>
 
-<div class="finding-grid three realm-esthetic">
+<div class="finding-grid three">
 <div>
-<h3>Immersing in atmosphere</h3>
-<p>Users appreciate mood and affective tone across romantic, dramatic, comforting, or fantastical scenes.</p>
+<h3>Co-creating emergent narratives</h3>
+<p>Open-ended input lets players shape events, dialogue, and narrative developments beyond fixed branches.</p>
+<p class="need-tag">Autonomy satisfaction</p>
 </div>
 <div>
-<h3>Experiencing in-character consistency</h3>
-<p>The character is valued when it stays faithful to its persona, style, and behavioral logic.</p>
+<h3>Building para-social relationships</h3>
+<p>Responsive and contextually appropriate agents create emotional familiarity, companionship, and attachment.</p>
+<p class="need-tag">Relatedness satisfaction</p>
 </div>
 <div>
-<h3>Following narrative flow</h3>
-<p>Users value coherent story development over abrupt inconsistency and fragmentation.</p>
+<h3>AI as a core mechanic</h3>
+<p>Players probe prompts, learn system tendencies, and treat generative behavior as something to master.</p>
+<p class="need-tag">Autonomy + competence satisfaction</p>
 </div>
 </div>
 
 <div class="takeaway">
-In role-playing AI, esthetics are textual and narrative rather than physical or spatial.
+Runtime dialogue is the richest site for agency and relational experience, because the system responds during play.
 </div>
 
 ---
 layout: default
-class: escapism-slide
+class: feature-slide
 ---
 
-# Escapist: Participating in Alternative Realities
+# When Dialogue Breaks: Two Critical Disaffordances
 
-<p class="realm-intro">Escapism peaks when users co-build worlds, selves, and relationships.</p>
+<div class="aff-dis-grid">
+<div>
+<h3>Failure to retain conversational context</h3>
+<p>AI characters forget prior exchanges, established relationships, or relevant details.</p>
+<ul>
+<li>Prior interaction loses meaning.</li>
+<li>Emotional continuity weakens.</li>
+<li>Relatedness becomes difficult to sustain.</li>
+</ul>
+<p class="need-tag">Relatedness frustration</p>
+</div>
+<div>
+<h3>Decoupling of agent logic from mechanical consequence</h3>
+<p>Characters describe possibilities, objects, or actions that the game system cannot actually support.</p>
+<ul>
+<li>Dialogue intelligence does not translate into gameplay consequence.</li>
+<li>Players cannot predict which actions matter.</li>
+<li>System mastery becomes unreliable.</li>
+</ul>
+<p class="need-tag">Competence frustration</p>
+</div>
+</div>
 
-<div class="finding-grid four realm-escapism">
+---
+layout: default
+class: feature-slide
+---
+
+# Feature Category 3: Adaptive and Generative Gameplay Systems
+
+<p class="realm-intro">Dynamically generated events, quests, encounters, battles, and game structures that alter play at runtime.</p>
+
+<div class="two-col-emphasis">
 <div>
-<h3>Fictional world co-creation</h3>
-<p>Users actively build and inhabit imagined scenarios with AI characters.</p>
+<h3>Experiential promise</h3>
+<p><strong>Interacting with AI as a core mechanic</strong></p>
+<p>Players may experience the generative process itself as part of challenge, experimentation, and system mastery.</p>
+<p class="need-tag">Autonomy + competence satisfaction</p>
 </div>
 <div>
-<h3>Identity exploration</h3>
-<p>Role-play enables experimentation with alternative selves, roles, and ways of acting.</p>
-</div>
-<div>
-<h3>Imagined relationships</h3>
-<p>Users engage in emotionally meaningful friendship, romance, mentorship, conflict, and related scenarios.</p>
-</div>
-<div>
-<h3>Power fantasies</h3>
-<p>Users enact idealized agency, competence, protection, rescue, dominance, or intensified self-positioning.</p>
+<h3>Recurring breakdowns</h3>
+<ul>
+<li><strong>Surface-level novelty:</strong> generated quests or encounters differ in form but not in substance.</li>
+<li><strong>System incoherence:</strong> generated states conflict with the broader game logic or surrounding mechanics.</li>
+</ul>
+<p class="need-tag">Competence frustration</p>
 </div>
 </div>
 
 <div class="takeaway">
-Escapist experience is especially salient because it combines fictional worlds, alternative identities, and imagined relationships.
+Adaptive GenAI must generate meaningful system depth, not just more content.
 </div>
 
 ---
@@ -311,19 +419,19 @@ layout: default
 class: loop-slide
 ---
 
-# How the Four Realms Work Together
+# Cross-Cutting Insight: Features, Not Labels
 
-<p class="realm-intro">The four realms form a reinforcement loop rather than independent outcomes.</p>
+<p class="realm-intro">Across feature categories, player evaluations depend on how GenAI enters the play system.</p>
 
 <div class="interaction-map">
-<div><span>1</span><strong>Entertainment</strong><p>draws users in through playfulness, ease, and novelty</p></div>
-<div><span>2</span><strong>Esthetics</strong><p>stabilizes engagement through atmosphere, character consistency, and narrative flow</p></div>
-<div><span>3</span><strong>Escapism</strong><p>deepens participation in worlds, identities, relationships, and fantasies</p></div>
-<div><span>4</span><strong>Education</strong><p>emerges through reflection, practice, and creative development</p></div>
+<div><span>1</span><strong>Meaningful expansion</strong><p>Players respond positively when GenAI creates new choices, rewards, relationships, or strategic possibilities.</p></div>
+<div><span>2</span><strong>Coherence as infrastructure</strong><p>Generated content must remain interpretable, stylistically consistent, and coordinated with game mechanics.</p></div>
+<div><span>3</span><strong>Runtime continuity</strong><p>Dialogue and agent systems must remember enough context for interaction to accumulate meaning.</p></div>
+<div><span>4</span><strong>Mechanical consequence</strong><p>Generative intelligence matters most when it connects to playable outcomes.</p></div>
 </div>
 
 <div class="takeaway big">
-Role-playing conversational AI is a form of co-created experiential consumption.
+GenAI value in games is experiential and systemic, not merely generative.
 </div>
 
 ---
@@ -340,16 +448,16 @@ layout: default
 
 <div class="contrib-grid">
 <div>
-<h3>Conversational AI</h3>
-<p>Conceptualizes role-playing conversational AI as experience-centered human–AI interaction, beyond utilitarian systems or companionship technologies.</p>
+<h3>GenAI products</h3>
+<p>Extends GenAI product research from static AI-generated outputs to feature-rich interactive digital products.</p>
 </div>
 <div>
-<h3>Experience economy</h3>
-<p>Extends the 4Es framework to generative, interactive, and narrative AI, showing how each realm is reconfigured in this context.</p>
+<h3>Needs-(Dis)Affordances-Features</h3>
+<p>Develops a framework linking GenAI-enabled technical features to affordances, disaffordances, and psychological needs.</p>
 </div>
 <div>
-<h3>Methodology</h3>
-<p>Demonstrates an LLM-assisted grounded theory procedure for large-scale naturalistic user discourse.</p>
+<h3>Games and HCI</h3>
+<p>Explains why player responses to GenAI-enabled games are mixed by showing how autonomy, competence, and relatedness are both supported and frustrated.</p>
 </div>
 </div>
 
@@ -357,13 +465,15 @@ layout: default
 layout: default
 ---
 
-# Practical Implications
+# Practical Implications for Developers and Platforms
 
 <div class="implication-grid">
-<div><strong>Design for coherence</strong><br/>Support atmosphere, in-character consistency, and narrative flow.</div>
-<div><strong>Design for playful engagement</strong><br/>Enable enjoyable, low-pressure, and moderately unpredictable exchanges.</div>
-<div><strong>Design for immersive participation</strong><br/>Support fictional co-creation while guarding against emotional overinvestment and blurred boundaries.</div>
-<div><strong>Design for reflective affordances</strong><br/>Treat perspective broadening, skill practice, and creative crafting as part of experiential value.</div>
+<div><strong>Design assets as meaningful rewards</strong><br/>Generated assets should reinforce progression, discovery, collection, and atmosphere rather than fill space.</div>
+<div><strong>Guard against visible shallowness</strong><br/>Avoid repetitive visual patterns, generic text, flat voice delivery, and style mismatches that signal weak craft.</div>
+<div><strong>Maintain conversational continuity</strong><br/>Runtime agents need memory, relational consistency, and contextual awareness across interaction turns.</div>
+<div><strong>Couple AI dialogue to mechanics</strong><br/>NPC reasoning and generated suggestions should map to actual game states, actions, and consequences.</div>
+<div><strong>Generate depth, not only variation</strong><br/>Adaptive quests and encounters should create meaningful strategic differences, not superficial novelty.</div>
+<div><strong>Evaluate GenAI at feature level</strong><br/>Platform disclosure is useful, but experience quality depends on implementation and integration.</div>
 </div>
 
 ---
@@ -372,25 +482,21 @@ layout: default
 
 # Limitations and Future Research
 
-<p class="realm-intro">The study is exploratory; broader datasets and methods are needed next.</p>
-
 <div class="columns-2">
 <div>
 <h3>Limitations</h3>
 <ul>
-<li>Data are drawn exclusively from <em>r/CharacterAI</em>.</li>
-<li>Evidence is based on user-generated comments rather than direct interaction traces.</li>
-<li>LLM-assisted coding may still involve prompt sensitivity and model-specific bias.</li>
-<li>The study is qualitative and exploratory.</li>
+<li>Steam reviews provide rich naturalistic evaluations but do not directly measure psychological needs.</li>
+<li>Cases were identified through visible GenAI statements, potentially excluding undisclosed uses.</li>
+<li>The study is inductive and theory-developing rather than causal or statistically generalizable.</li>
 </ul>
 </div>
 <div>
 <h3>Future research</h3>
 <ul>
-<li>Compare platforms, communities, and cultural contexts.</li>
-<li>Combine discourse analysis with interviews, usage logs, or experiments.</li>
-<li>Benchmark different LLM-assisted coding protocols.</li>
-<li>Develop and test measurement scales for the four experiential realms.</li>
+<li>Validate the framework through interviews, surveys, experiments, or mixed-method designs.</li>
+<li>Develop measurement instruments for the identified affordances and disaffordances.</li>
+<li>Compare feature-level GenAI integration across genres, player segments, and game contexts.</li>
 </ul>
 </div>
 </div>
@@ -401,7 +507,7 @@ layout: statement
 
 # Takeaway
 
-**Role-playing conversational AI should be understood not merely as a tool or companion, but as an immersive, co-created experiential medium.**
+**Players do not evaluate GenAI-enabled games only by AI origin. They evaluate how GenAI-enabled technical features make play more or less meaningful, coherent, controllable, and connected.**
 
 ---
 layout: acknowledgments
