@@ -1,10 +1,10 @@
-# ICEB 2026 Slidev Presentation 183
+# ICEB 2026 Slidev Presentation 189
 
 This is a Slidev deck for the paper:
 
-> Unpacking the Experience Economy of Role-Playing Conversational AI: A Grounded Theory Analysis
+> Mapping GenAI-Enabled Technical Features to Player Needs in Digital Games: A Needs-(Dis)Affordances-Features Framework
 
-It uses [`slidev-theme-scholarly`](https://github.com/jxpeng98/slidev-theme-scholarly]).
+It uses [`slidev-theme-scholarly`](https://github.com/jxpeng98/slidev-theme-scholarly).
 
 ## Usage
 
